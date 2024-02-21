@@ -1,0 +1,56 @@
+
+form{
+    margin: auto;
+    width: 30rem;
+    background-color: gold;
+    padding: 30px;
+    border-radius: 1.4rem;
+}
+body{
+    background-color: black;
+}
+label{
+    font-size: 1.2rem;
+}
+
+input,select,textarea{
+    width: 100%;
+    font-size: 1.2rem;
+     border: none;
+    border-bottom: 2px solid;
+    outline: none; 
+    border-radius: 1rem;
+}
+
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+
+.labling{
+    margin-bottom: 15px;;
+}
+
+input{
+    padding:10px;
+    color: brown;
+}
+
+input[type="checkbox"],input[type='radio']{
+    width: 15px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    background-color: black;
+    border-radius: 1.2rem;
+    font-size: 25px;
+  color:white;
+  padding:10px;
+  width:100px;
+}
+
+
+
+
