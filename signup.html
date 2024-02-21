@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms Demo</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <h1>Form demo</h1>
+    <form>
+        <div class="labling">
+            <label for="1000">First name</label>
+            <input type="text" name="name" id="1000" placeholder="Ex.Jhon" autocomplete="off">
+        </div>
+        <div class="labling">
+            <label for="100">Age</label>
+            <input type="number" id="100">
+        </div>
+        <div class="labling">
+            <label for="d">Date of birth</label>
+            <input type="date" id="d">
+        </div>
+        <div class="labling">
+            <label for="email">Enter the email</label>
+            <input type="email" id="email">
+        </div>
+        <div class="labling">
+            <label for="">Select skills</label>
+            <div>
+                <input type="checkbox" name="lang" id="js">
+                <label for="js">Javascript</label>
+            </div>
+            <div>
+                <input type="checkbox" name="lang" id="C">
+                <label for="C">C progamming</label>
+            </div>
+            <div>
+                <input type="checkbox" name="lang" id="cpp">
+                <label for="cpp">C++</label>
+            </div>
+        </div>
+
+        <div class="labling">
+            <label for="">Enter the gender</label>
+            <div>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+
+
+        <div class="labling">
+            <label for="states">Enter the states</label>
+            <select name="states" id="states">
+                <option value="" disabled selected>--States--</option>
+                <option value="">Telengana</option>
+                <option value="">Andhra pradesh</option>
+                <option value="">Tamil nadu</option>
+            </select>
+        </div>
+
+        <div class="labling">
+            <label for="test">Feedback</label>
+            <textarea name="test" id="test" rows="5"></textarea>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+    </html>
+</body>
+
